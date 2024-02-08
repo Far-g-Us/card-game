@@ -1,0 +1,12 @@
+https://arunrocks.com/building-a-hacker-news-clone-in-django-part-1/
+https://arunrocks.com/building-a-hacker-news-clone-in-django-part-2/
+https://arunrocks.com/building-a-hacker-news-clone-in-django-part-3/
+https://arunrocks.com/building-a-hacker-news-clone-in-django-part-4/
+https://github.com/arocks/steel-rumors/tree/episode4
+https://pythonist.ru/novye-knigi-po-python-na-russkom-yazyke/
+https://pythonist.ru/knigi-po-python-dlya-nachinayushhih/
+https://pythonist.ru/samye-novye-uchebnye-posobiya-po-python-2020-2021-gg/
+https://pythonist.ru/4-poleznyh-priema-raboty-s-python/
+https://pythonist.ru/czikl-for-v-python-tonkosti-napisaniya/
+https://pythonist.ru/blok-else-v-cziklah-for-i-while/
+https://pythonist.ru/pygame-tutorial/
