@@ -20,3 +20,15 @@ https://habr.com/ru/articles/347170/
 https://habr.com/ru/articles/347256/
 https://habr.com/ru/articles/347266/
 https://habr.com/ru/articles/347286/
+////////////////////////////////////////////////////////////////////////////////
+https://github.com/vannov/pygame_cards
+https://docs.replit.com/tutorials/python/build-card-game-pygame
+https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-21-osnovy-razrabotki-igr-na-pygame-2023-05-29
+https://pygame.ru/blog/pasyans-na-python.php
+https://devanswers.ru/answers-ru/kartochnaya-igra-s-pomoshchyu-pygame/
+https://russianblogs.com/article/7355809720/
+https://python.howtos.io/python-and-pygame-building-a-strategy-game/
+https://vc.ru/tech/635845-ot-nachala-do-pobedy-kak-sozdat-svoyu-pervuyu-igru-na-python-s-ispolzovaniem-biblioteki-pygame
+https://thecode.media/pygames/
+https://dzen.ru/a/ZKfX6bsqoB7ImX3c
+
