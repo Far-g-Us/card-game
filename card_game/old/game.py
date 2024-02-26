@@ -5,8 +5,8 @@ import pygame
 pygame.init()
 
 # Определение размеров экрана
-screen_width = 800
-screen_height = 600
+screen_width = 1200
+screen_height = 800
 
 # Создание экрана Pygame
 screen = pygame.display.set_mode((screen_width, screen_height))
@@ -15,48 +15,48 @@ pygame.display.set_caption("Игра в Дурака")
 # Загрузка изображений карт
 card_images = {
     'черви': {
-        '6': pygame.image.load('card/chervi_6.jpg'),
-        '7': pygame.image.load('card/chervi_7.jpg'),
-        '8': pygame.image.load('card/chervi_8.jpg'),
-        '9': pygame.image.load('card/chervi_9.jpg'),
-        '10': pygame.image.load('card/chervi_10.jpg'),
-        'валет': pygame.image.load('card/chervi_J.jpg'),
-        'дама': pygame.image.load('card/chervi_Q.jpg'),
-        'король': pygame.image.load('card/chervi_K.jpg'),
-        'туз': pygame.image.load('card/chervi_A.jpg')
+        '6': pygame.image.load('old/card/chervi_6.jpg'),
+        '7': pygame.image.load('old/card/chervi_7.jpg'),
+        '8': pygame.image.load('old/card/chervi_8.jpg'),
+        '9': pygame.image.load('old/card/chervi_9.jpg'),
+        '10': pygame.image.load('old/card/chervi_10.jpg'),
+        'валет': pygame.image.load('old/card/chervi_J.jpg'),
+        'дама': pygame.image.load('old/card/chervi_Q.jpg'),
+        'король': pygame.image.load('old/card/chervi_K.jpg'),
+        'туз': pygame.image.load('old/card/chervi_A.jpg')
     },
     'бубны': {
-        '6': pygame.image.load('card/bubni_6.jpg'),
-        '7': pygame.image.load('card/bubni_7.jpg'),
-        '8': pygame.image.load('card/bubni_8.jpg'),
-        '9': pygame.image.load('card/bubni_9.jpg'),
-        '10': pygame.image.load('card/bubni_10.jpg'),
-        'валет': pygame.image.load('card/bubni_J.jpg'),
-        'дама': pygame.image.load('card/bubni_Q.jpg'),
-        'король': pygame.image.load('card/bubni_K.jpg'),
-        'туз': pygame.image.load('card/bubni_A.jpg')
+        '6': pygame.image.load('old/card/bubni_6.jpg'),
+        '7': pygame.image.load('old/card/bubni_7.jpg'),
+        '8': pygame.image.load('old/card/bubni_8.jpg'),
+        '9': pygame.image.load('old/card/bubni_9.jpg'),
+        '10': pygame.image.load('old/card/bubni_10.jpg'),
+        'валет': pygame.image.load('old/card/bubni_J.jpg'),
+        'дама': pygame.image.load('old/card/bubni_Q.jpg'),
+        'король': pygame.image.load('old/card/bubni_K.jpg'),
+        'туз': pygame.image.load('old/card/bubni_A.jpg')
     },
     'крести': {
-        '6': pygame.image.load('card/kresti_6.jpg'),
-        '7': pygame.image.load('card/kresti_7.jpg'),
-        '8': pygame.image.load('card/kresti_8.jpg'),
-        '9': pygame.image.load('card/kresti_9.jpg'),
-        '10': pygame.image.load('card/kresti_10.jpg'),
-        'валет': pygame.image.load('card/kresti_J.jpg'),
-        'дама': pygame.image.load('card/kresti_Q.jpg'),
-        'король': pygame.image.load('card/kresti_K.jpg'),
-        'туз': pygame.image.load('card/kresti_A.jpg')
+        '6': pygame.image.load('old/card/kresti_6.jpg'),
+        '7': pygame.image.load('old/card/kresti_7.jpg'),
+        '8': pygame.image.load('old/card/kresti_8.jpg'),
+        '9': pygame.image.load('old/card/kresti_9.jpg'),
+        '10': pygame.image.load('old/card/kresti_10.jpg'),
+        'валет': pygame.image.load('old/card/kresti_J.jpg'),
+        'дама': pygame.image.load('old/card/kresti_Q.jpg'),
+        'король': pygame.image.load('old/card/kresti_K.jpg'),
+        'туз': pygame.image.load('old/card/kresti_A.jpg')
     },
     'пики': {
-    '6': pygame.image.load('card/piki_6.jpg'),
-    '7': pygame.image.load('card/piki_7.jpg'),
-    '8': pygame.image.load('card/piki_8.jpg'),
-    '9': pygame.image.load('card/piki_9.jpg'),
-    '10': pygame.image.load('card/piki_10.jpg'),
-    'валет': pygame.image.load('card/piki_J.jpg'),
-    'дама': pygame.image.load('card/piki_Q.jpg'),
-    'король': pygame.image.load('card/piki_K.jpg'),
-    'туз': pygame.image.load('card/piki_A.jpg')
+    '6': pygame.image.load('old/card/piki_6.jpg'),
+    '7': pygame.image.load('old/card/piki_7.jpg'),
+    '8': pygame.image.load('old/card/piki_8.jpg'),
+    '9': pygame.image.load('old/card/piki_9.jpg'),
+    '10': pygame.image.load('old/card/piki_10.jpg'),
+    'валет': pygame.image.load('old/card/piki_J.jpg'),
+    'дама': pygame.image.load('old/card/piki_Q.jpg'),
+    'король': pygame.image.load('old/card/piki_K.jpg'),
+    'туз': pygame.image.load('old/card/piki_A.jpg')
     }
 }
 

@@ -2,11 +2,17 @@ import pygame
 import random
 from collections import deque
 
-# Загрузка изображений карт
+# Загружаем изображения карт с цифрами от 6 до 10
 card_images = []
 for suit in ["hearts", "diamonds", "clubs", "spades"]:
-    for value in range(6, 15):
-        image = pygame.image.load(f"cards/{suit}_{value}.png")
+    for value in range(6, 11):
+        image = pygame.image.load(f"card_game/img/cards/{suit}_{value}.png")
+        card_images.append(image)
+    
+# Загружаем изображения для карт валета, дамы, короля и туза
+for suit in ["hearts", "diamonds", "clubs", "spades"]:
+    for value in ["jack", "queen", "king", "ace"]:
+        image = pygame.image.load(f"card_game/img/cards/{suit}_{value}.png")
         card_images.append(image)
 
 # Классы Card и Deck
@@ -21,7 +27,7 @@ class Card:
 
 class Deck:
     def __init__(self):
-        self.cards = [Card(suit, value) for suit in [0, 1, 2, 3] for value in range(6, 15)]
+        self.cards = [Card(suit, value) for suit in [0, 1, 2, 3] for value in range(0, 9)]
         random.shuffle(self.cards)
 
     def deal_card(self):
