@@ -6,6 +6,7 @@ def events(screen):
         if event.type == pygame.QUIT:
             sys.exit()
         # if event.type == pygame.MOUSEBUTTONDOWN:
+        # elif event.type == pygame.MOUSEBUTTONUP:
 
 
         # elif event.type == pygame.KEYDOWN:

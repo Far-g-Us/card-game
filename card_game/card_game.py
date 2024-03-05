@@ -9,7 +9,8 @@ def run():
     bg_color = (255, 255, 255)
 
     while True:
-        controls.events(screen)
+        # controls.events(screen)
+        controls.update(screen)
         # screen.fill(bg_color)
         # pygame.display.flip()
 run()
