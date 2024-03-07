@@ -11,9 +11,3 @@ def events(screen):
 
         # elif event.type == pygame.KEYDOWN:
         # elif event.type == pygame.KEYUP:
-
-def update(bg_color, screen):
-    screen.fill(bg_color)
-
-
-    pygame.display.flip()

@@ -1,10 +1,12 @@
 import pygame
+from pygame.sprite import Sprite
 
-class Card():
+class Card(Sprite):
     def __init__(self, screen, image_sprite):
         super(Card, self).__init__()
         self.screen = screen
-        self.image = image_sprite()
+        self.image = image_sprite
+        self.rect = self.image.get_rect()
 
 
     def image_sprite(self):
